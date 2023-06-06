@@ -1,0 +1,225 @@
+
+#navbar{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.logo{
+    cursor: pointer;
+}
+.nav-links li a {
+    color: #F0F0F0 ;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #EA168E;
+
+}
+.first-container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.first-container h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.first-containerimg img{
+    height: 350px;
+    width: 350px;
+}
+
+#about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#skills{
+    padding-top: 5%;
+}
+.about-me{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(0,212,255,1) 100%);
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 90vh;
+    
+}
+.about-me h1{
+    text-align: center
+}
+.info{
+    text-align: center;
+    
+}
+
+.custom{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100%-2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-header h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: #EA168E;
+    margin: 0;
+}
+.section-header p{
+    font-size: 20px;
+
+}
+.title-area{
+    font-size: 25px;
+    font-family: montserrat;
+    text-transform: uppercase;
+    color: #EA168E;
+}
+.single-skill{
+    display: flex;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+}
+.topic{
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 500;
+}
+.bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .75rem;
+    background-color: #EA168E;
+}
+.bar-1{
+    width: 75%;
+}
+.bar-2{
+    width: 60%;
+}
+.bar-3{
+    width: 70%;
+}
+.bar-4{
+    width: 65%;
+}
+.bar-5{
+    width:55%;
+}
+
+.contact *{
+    box-sizing: border-box;
+    margin: 0;
+}
+#body{
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(0,212,255,1) 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 10px;
+   height: 100vh;
+   margin: -20px 0 50px;
+}
+
+.contact{
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    min-width: 370px;
+}
+.contact h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.form-container{
+    display: flex;
+}
+.left-contact{
+    background-color: #00d4ff;
+    display: flex;
+    height: 480px;
+    justify-content: center;
+    align-items: center; 
+}
+.right-contact{
+    display: flex;
+    height: 460px;
+    width: 500px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.left-contact p{
+    font-size: 0.9rem;
+}
+.left-inner-contact{
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 30px;
+}
+.right-inner-conatact{
+    height: 80%;
+    width: 70%;
+    text-align: center;
+}
+.label{
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 80%;
+    font-size: 0.8rem;
+    background-color: #F0F0F0;
+}
+form p{
+    text-align: left;
+}
+button{
+    border-radius: 20px;
+    background-color: #EA168E;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor:pointer;
+
+}
