@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+
+    max-width: 1050px;
 }
 #navbar{
     background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,85,1) 35%, rgba(0,212,255,1) 100%);
@@ -167,7 +167,7 @@ header{
     background-color: white;
     border-radius: 5px;
     position: relative;
-    width: 768px;
+    width: 768px;  
     max-width: 100%;
     min-height: 480px;
     min-width: 370px;
@@ -193,6 +193,7 @@ header{
     background-color: white;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .left-contact p{
     font-size: 0.9rem;
@@ -222,6 +223,7 @@ form p{
     text-align: left;
 }
 button{
+    
     border-radius: 20px;
     background-color: #EA168E;
     font-size: 12px;
@@ -231,6 +233,8 @@ button{
     text-transform: uppercase;
     transition: transform 80ms ease-in;
     cursor:pointer;
+    
+    
 
 }
 nav{
@@ -265,7 +269,15 @@ nav{
         right: 80px;
         top: 20px;
         left: 80px;
-        cursor: pointer;
+        cursor: pointer;   
+    }
+    .contact{
+        width: 500px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .left-inner-contact{
+        height: 70%;
         
     }
 }
