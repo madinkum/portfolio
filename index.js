@@ -1,5 +1,5 @@
 document.querySelector("#navbar").innerHTML=`<header>
-<img class="logo" src="./Images/logo.png" alt="logo">
+<a href="index.html"><img class="logo" src="./Images/logo.png" alt="logo"></a>
 <nav>
     <ul class="nav-menu">
         <li class= "nav-item">
@@ -16,12 +16,13 @@ document.querySelector("#navbar").innerHTML=`<header>
         </li>
     </ul>
     <div class="hamburger">
-    <span class="line"></span>
-    <span class="line"></span>
-    <span class="line"></span>
-</div>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+   </div>
 </nav>
 </header>`;
+
 const hamburger =document.querySelector(".hamburger");
 const navMenu=document.querySelector(".nav-menu");
 hamburger.addEventListener("click", () =>{
@@ -29,7 +30,7 @@ hamburger.addEventListener("click", () =>{
     navMenu.classList.toggle("active");
 })
 
-document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",()=>{
+*document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",()=>{
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }))
