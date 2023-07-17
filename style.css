@@ -65,7 +65,7 @@ header{
     align-items: center;
     flex-direction: column;
 } 
-.first-container h1 :hover{
+.first-container h1:hover{
     color: #EA168E;
 }
 .first-container h1{
