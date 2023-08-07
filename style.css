@@ -65,6 +65,9 @@ header{
     align-items: center;
     flex-direction: column;
 } 
+.first-container h1:hover{
+    color: #EA168E;
+}
 .first-container h1{
     font-family: 'Libre Baskerville', serif;
 }
@@ -176,6 +179,9 @@ header{
     width: 65%;
 }
 .bar-5{
+    width:55%;
+}
+.bar-6{
     width:55%;
 }
 
